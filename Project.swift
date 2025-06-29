@@ -19,7 +19,8 @@ let project = Project(
             sources: ["unrest/Sources/**"],
             resources: ["unrest/Resources/**"],
             dependencies: [
-                .external(name: "Inject"),
+                .external(name: "HotSwiftUI"),
+                // .external(name: "Inject"),
             ],
             settings: .settings(
                 base: [

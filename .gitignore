@@ -135,3 +135,16 @@ Tuist/.build
 *.xcassets
 *.resolved
 *.toml
+
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+.nvim/*
+Derived/*
+*.resolved
+*.xcodeproj
+*.xcworkspace
+buildServer.json

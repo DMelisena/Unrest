@@ -1,17 +1,25 @@
+@_exported import HotSwiftUI
 import SwiftUI
 
-public struct ContentView: View {
-    @ObserveInjection var inject
-    public init() {}
-
-    public var body: some View {
-        Text("Hello, World!")
-            .padding()
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            NewView()
+            Text("Hello, world!")
+        }
+        .padding()
+        .background(.brown)
+        .onAppear {
+            #if DEBUG
+                Bundle(path: "/Applications/InjectionIII.app/Contents/Resources/iOSInjection.bundle")?.load()
+            #endif
+        }
+        .enableInjection() // Xcode16 default support: SWIFT_ENABLE_OPAQUE_TYPE_ERASURE
     }
+
+    @ObserveInjection var redraw
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+#Preview {
+    ContentView()
 }

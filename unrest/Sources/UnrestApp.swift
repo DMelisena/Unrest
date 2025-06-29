@@ -1,9 +1,8 @@
-@_exported import Inject
+@_exported import HotSwiftUI
 import SwiftUI
 
 @main
 struct UnrestApp: App {
-    @ObserveInjection var inject
     var body: some Scene {
         WindowGroup {
             ContentView()
