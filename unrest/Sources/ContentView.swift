@@ -4,11 +4,19 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            NewView()
-            Text("Hello, world!")
+            let cards = [
+                CardView.Model(text: "Card 1"),
+                CardView.Model(text: "Card 2"),
+                CardView.Model(text: "Card 3"),
+                CardView.Model(text: "Card 4"),
+            ]
+
+            let model = SwipeableCardsView.Model(cards: cards)
+            SwipeableCardsView(model: model) { model in
+                print(model.swipedCards)
+                model.reset()
+            }
         }
-        .padding()
-        .background(.brown)
         .onAppear {
             #if DEBUG
                 Bundle(path: "/Applications/InjectionIII.app/Contents/Resources/iOSInjection.bundle")?.load()
