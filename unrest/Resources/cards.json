@@ -1,0 +1,360 @@
+[
+  {
+    "id": "00000000-0000-0000-0000-000000000041",
+    "title": "The Scapegoat Decree",
+    "analogue_for": "Political Scapegoating",
+    "description": "Blames group for economic breakdown.",
+    "effects": {
+      "given_faction": {
+        "hate_change": 3,
+        "unity_change": -2
+      },
+      "opposite_faction": {
+        "hate_change": 2,
+        "unity_change": -1
+      }
+    },
+    "coin_value": 5,
+    "explanation": "Amidst public unrest, a powerful leader issues a decree blaming a specific minority group for the nation's economic woes and social ills. For instance, new policies might directly target and restrict 'foreign' workers, igniting widespread public resentment and fostering deep-seated prejudices against them."
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000042",
+    "title": "Whispers of Treason",
+    "analogue_for": "Disinformation Campaign",
+    "description": "Accuse group as foreign agents, disloyal.",
+    "effects": {
+      "given_faction": {
+        "hate_change": 2,
+        "unity_change": -1
+      },
+      "opposite_faction": {
+        "hate_change": 3,
+        "unity_change": -2
+      }
+    },
+    "coin_value": 4,
+    "explanation": "A sophisticated campaign of misinformation spreads through hidden channels, falsely accusing a rival faction of disloyalty and plotting against the state. For example, fabricated documents might circulate claiming a political party is secretly collaborating with an enemy nation, eroding trust and tearing at societal bonds."
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000043",
+    "title": "The Exclusionary Wall",
+    "analogue_for": "Segregationist Policy",
+    "description": "Decree a law that deny group access, fueling resentment.",
+    "effects": {
+      "given_faction": {
+        "hate_change": 1,
+        "unity_change": -2
+      },
+      "opposite_faction": {
+        "hate_change": 3,
+        "unity_change": -3
+      }
+    },
+    "coin_value": 6,
+    "explanation": "New laws are enacted, creating a physical or legal barrier that systematically denies one group access to essential resources, public spaces, or political participation. For instance, a decree might confiscate land from a specific ethnic group for 'development zones,' solidifying divides and fueling resentment."
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000044",
+    "title": "Unequal Harvest",
+    "analogue_for": "Resource Hoarding/Inequality",
+    "description": "accuse other group to be hoarding resources which results in widespread hardship.",
+    "effects": {
+      "given_faction": {
+        "hate_change": 2,
+        "unity_change": 1
+      },
+      "opposite_faction": {
+        "hate_change": 4,
+        "unity_change": -2
+      }
+    },
+    "coin_value": 5,
+    "explanation": "A critical resource, such as clean water or fertile land, becomes increasingly scarce, leading one powerful group to monopolize its distribution for their sole benefit. This might involve diverting an entire region's water supply to large corporate farms, creating severe hardship and exacerbating class divisions for local communities."
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000045",
+    "title": "The Rewritten Past",
+    "analogue_for": "Historical Revisionism",
+    "description": "Rewrite history to demonizes specific group.",
+    "effects": {
+      "given_faction": {
+        "hate_change": 2,
+        "unity_change": -1
+      },
+      "opposite_faction": {
+        "hate_change": 3,
+        "unity_change": -2
+      }
+    },
+    "coin_value": 5,
+    "explanation": "State-sponsored institutions begin rewriting history textbooks and public monuments, portraying one group's narrative as the sole truth while demonizing the other. This systematic erasure and distortion of the past fuels resentment and makes reconciliation seem impossible."
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000046",
+    "title": "The Censor's Hand",
+    "analogue_for": "Suppression of Dissent",
+    "description": "Censorship targets dissent, stifling free speech.",
+    "effects": {
+      "given_faction": {
+        "hate_change": 1,
+        "unity_change": -1
+      },
+      "opposite_faction": {
+        "hate_change": 2,
+        "unity_change": -2
+      }
+    },
+    "coin_value": 4,
+    "explanation": "Authorities implement strict new censorship laws, targeting media outlets and cultural expressions associated with a specific dissenting faction. This crackdown stifles free speech and further isolates the targeted group, deepening the ideological chasm."
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000047",
+    "title": "The Holy Schism",
+    "analogue_for": "Religious Persecution",
+    "description": "Persecutes group's religion.",
+    "effects": {
+      "given_faction": {
+        "hate_change": 3,
+        "unity_change": -2
+      },
+      "opposite_faction": {
+        "hate_change": 4,
+        "unity_change": -3
+      }
+    },
+    "coin_value": 6,
+    "explanation": "A dominant religious sect begins openly persecuting a smaller, differing faith, restricting their places of worship and social gatherings. This direct attack on fundamental beliefs ignites spiritual warfare and creates deep, unyielding hatred."
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000049",
+    "title": "Disputed Borders",
+    "analogue_for": "Territorial Conflict",
+    "description": "Ignite border dispute between groups",
+    "effects": {
+      "given_faction": {
+        "hate_change": 3,
+        "unity_change": -2
+      },
+      "opposite_faction": {
+        "hate_change": 3,
+        "unity_change": -2
+      }
+    },
+    "coin_value": 6,
+    "explanation": "A long-dormant territorial dispute reignites, with claims and counter-claims over border regions escalating into armed clashes. Both sides mobilize nationalist sentiment, demonizing the other to justify their claims and fueling open conflict."
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000050",
+    "title": "The Tongue of Power",
+    "analogue_for": "Language Suppression",
+    "description": "Enforce dominant language surprese other group.",
+    "effects": {
+      "given_faction": {
+        "hate_change": 1,
+        "unity_change": -1
+      },
+      "opposite_faction": {
+        "hate_change": 2,
+        "unity_change": -2
+      }
+    },
+    "coin_value": 4,
+    "explanation": "Official decrees make the dominant group's language mandatory in all public and educational institutions, while suppressing minority languages. This policy undermines cultural identity and alienates non-speakers, sparking protests and a loss of cultural unity."
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000051",
+    "title": "The Stolen Vote",
+    "analogue_for": "Voter Suppression",
+    "description": "Accuse group to rig the Laws and election",
+    "effects": {
+      "given_faction": {
+        "hate_change": 2,
+        "unity_change": -2
+      },
+      "opposite_faction": {
+        "hate_change": 3,
+        "unity_change": -2
+      }
+    },
+    "coin_value": 5,
+    "explanation": "New electoral laws are passed, imposing strict requirements that disproportionately prevent certain demographic groups from casting their ballots. This systematic disenfranchisement undermines democratic fairness and fuels deep anger among the excluded, perceiving the system as rigged."
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000052",
+    "title": "Justice for Some",
+    "analogue_for": "Legal System Bias",
+    "description": "Accuse group of having bias on legal system.",
+    "effects": {
+      "given_faction": {
+        "hate_change": 1,
+        "unity_change": -1
+      },
+      "opposite_faction": {
+        "hate_change": 3,
+        "unity_change": -3
+      }
+    },
+    "coin_value": 6,
+    "explanation": "A series of high-profile legal rulings consistently demonstrates preferential treatment for one social group while meting out harsher punishments or denying justice to another. This stark imbalance erodes public faith in the legal system, intensifying grievances and calls for radical change."
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000053",
+    "title": "The Health Divide",
+    "analogue_for": "Public Health Disparities",
+    "description": "Health access prioritized, creating inequality.",
+    "effects": {
+      "given_faction": {
+        "hate_change": 1,
+        "unity_change": -1
+      },
+      "opposite_faction": {
+        "hate_change": 2,
+        "unity_change": -2
+      }
+    },
+    "coin_value": 5,
+    "explanation": "Public health initiatives, like vaccine distribution or access to advanced medical treatments, are clearly prioritized for one segment of the population over another. This creates a deeply unequal health landscape, leading to resentment and cries of discrimination from the underserved."
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000054",
+    "title": "Academic Purge",
+    "analogue_for": "Academic Censorship/Persecution",
+    "description": "Scholars purged for ideology; fosters distrust.",
+    "effects": {
+      "given_faction": {
+        "hate_change": 2,
+        "unity_change": -1
+      },
+      "opposite_faction": {
+        "hate_change": 2,
+        "unity_change": -2
+      }
+    },
+    "coin_value": 5,
+    "explanation": "A dominant ideology dictates acceptable academic discourse, leading to the purging of scholars whose research or teaching contradicts the prevailing narrative. This suppression of intellectual freedom creates deep distrust within educational institutions and fuels ideological clashes among the populace."
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000055",
+    "title": "Forgotten Boroughs",
+    "analogue_for": "Infrastructure Neglect",
+    "description": "Investment withheld, unequal living conditions.",
+    "effects": {
+      "given_faction": {
+        "hate_change": 1,
+        "unity_change": -1
+      },
+      "opposite_faction": {
+        "hate_change": 2,
+        "unity_change": -2
+      }
+    },
+    "coin_value": 4,
+    "explanation": "Government investment in infrastructure, such as roads, utilities, and public services, is deliberately withheld from areas primarily inhabited by a marginalized group. This systematic neglect creates visibly unequal living conditions, fueling accusations of purposeful disadvantage and deepening social fragmentation."
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000056",
+    "title": "The Digital Wall",
+    "analogue_for": "Technological Divide",
+    "description": "Restric digital access restricted, deepening inequality.",
+    "effects": {
+      "given_faction": {
+        "hate_change": 1,
+        "unity_change": -1
+      },
+      "opposite_faction": {
+        "hate_change": 1,
+        "unity_change": -1
+      }
+    },
+    "coin_value": 4,
+    "explanation": "Access to essential digital infrastructure and high-speed internet is deliberately restricted for certain regions or demographics, creating a stark 'digital divide'. This exclusion severely limits opportunities for education, commerce, and communication, exacerbating existing inequalities and breeding resentment."
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000057",
+    "title": "Desecrated Symbols",
+    "analogue_for": "Symbolic Destruction/Insult",
+    "description": "Accuse group for defling other group's sacred symbols.",
+    "effects": {
+      "given_faction": {
+        "hate_change": 2,
+        "unity_change": -2
+      },
+      "opposite_faction": {
+        "hate_change": 3,
+        "unity_change": -3
+      }
+    },
+    "coin_value": 6,
+    "explanation": "A prominent cultural or historical symbol sacred to one faction is publicly defiled or removed by elements of the opposing group. This act of blatant disrespect is seen as a profound insult to identity and ignites widespread outrage, escalating tensions to a breaking point."
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000058",
+    "title": "The Ancestral Seizure",
+    "analogue_for": "Forced Land Dispossession",
+    "description": "Seize ancestral land. Fueling fierce resistance.",
+    "effects": {
+      "given_faction": {
+        "hate_change": 4,
+        "unity_change": 2
+      },
+      "opposite_faction": {
+        "hate_change": 0,
+        "unity_change": 0
+      }
+    },
+    "coin_value": 7,
+    "explanation": "New legislation or executive orders allow for the confiscation of ancestral lands or inherited property from a specific group, often under the guise of public works or national security. This act of dispossession creates deep generational trauma and fuels desperate resistance to reclaim what was lost."
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000059",
+    "title": "The Cultural Erasure",
+    "analogue_for": "Forced Assimilation/Cultural Genocide",
+    "description": "Surpress group culture dilluting it's identities.",
+    "effects": {
+      "given_faction": {
+        "hate_change": 2,
+        "unity_change": -2
+      },
+      "opposite_faction": {
+        "hate_change": 3,
+        "unity_change": -3
+      }
+    },
+    "coin_value": 6,
+    "explanation": "Systematic programs are initiated to forcibly assimilate a minority culture into the dominant societal norm, suppressing their traditions, languages, and unique identities. These efforts to erase heritage are met with fierce resistance, leading to deep and lasting resentment."
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000060",
+    "title": "The Great Embargo",
+    "analogue_for": "Economic Blockade/Trade War",
+    "description": "Impose National embargo toward companies owned by particular group, cousing a widespread suffering.",
+    "effects": {
+      "given_faction": {
+        "hate_change": 2,
+        "unity_change": -2
+      },
+      "opposite_faction": {
+        "hate_change": 3,
+        "unity_change": -1
+      }
+    },
+    "coin_value": 6,
+    "explanation": "A powerful nation imposes a severe economic embargo on another, citing political grievances or human rights violations. This act starves the target nation of vital goods and services, creating immense suffering among its populace and escalating international tensions."
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000061",
+    "title": "The Gilded Cage",
+    "analogue_for": "Luxury Segregation",
+    "description": "Establish exclusive zones for elites; fuels class warfare.",
+    "effects": {
+      "given_faction": {
+        "hate_change": 1,
+        "unity_change": -2
+      },
+      "opposite_faction": {
+        "hate_change": 2,
+        "unity_change": -2
+      }
+    },
+    "coin_value": 5,
+    "explanation": "New urban developments or exclusive zones are constructed, offering unparalleled luxury and amenities but explicitly"}]
